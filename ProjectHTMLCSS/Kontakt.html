@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="Style.css">
+	<title>TED</title>
+</head>
+<body>
+	<div class="pozadinaKontakt">
+		<div class="nav">
+			<ul>
+				<li><a href="pocetna.html">Pocetna</a></li>
+				<li><a href="O nama.html">O nama</a></li>
+				<ul style="float: left;">
+				<li><a href="#">Kontakt</a></li>
+			</ul>
+			</ul>
+		</div>
+		<div class="sadrzaj">
+			<form id="Forma1" name="frm">
+				<input type="submit" onclick="Provera();" value="Posalji">
+				<table class="Kontakt" width="900">
+					<tr>
+						<th colspan="5">Kontakt</th>
+					</tr>
+					<tr>
+						<td>*Ime:<input type="text" placeholder="Unesite ime" name="ime" size="30"></td>
+						<td>*Prezime:<input type="text" placeholder="Unesite prezime" name="prezime" size="30"></td>
+						<td>*Email:<input type="mail" placeholder="Unesite mail" name="email" onchange="Mail(this)"></td>
+					</tr>
+					<tr>
+						<td colspan="5"><textarea name="message" rows="10" cols="110"></textarea></td>
+					</tr>
+					<tr>
+						<td colspan="5">Polja oznacena sa * su obavezna</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+	<div class="futer">
+		<ul>
+			<li><a href="https://www.facebook.com/tedisreal/?brand_redir=293491437386711"><img src="slikice/fb.png" style="height: 43%; width: 12%; background-size: 20% 20%"></a></li>
+			<li><a href="https://www.instagram.com/whattedsaw/"><img src="slikice/inst.png" style="height: 33%; width: 5%; background-size: 10% 10%"></a></li>
+			<li><a href="https://twitter.com/whattedsaid"><img src="slikice/twitter-icon.png" style="height: 40%; width: 15%; background-size: 20% 20%"></a></li>
+		</ul>
+	</div>
+
+</body>
+</html>

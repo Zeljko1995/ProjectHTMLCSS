@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+}
+.nav{
+	height: 42px;
+	width: 100%;
+	background-color: green;
+}
+.nav ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav li{
+	float: left;
+}
+.nav a{
+	transition: 10s;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 12px 14px;
+	text-align: center;
+}
+.nav a:hover{
+	background-color: darkgreen;
+}
+.futer{
+	background:#333;
+	width:100%;
+	height:10%;
+
+	
+}
+.futer ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	display: inline-flex;
+	justify-content: space-between;
+	
+	
+}
+.futer a{
+	text-decoration:none;
+	color:white;
+	padding: 12px 14px;
+	
+}
+.pozadina h1 {
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	font-size: 40px;
+	font-family: sans-serif;
+	color: green;
+	font-weight: bold;
+}
+#dugme{
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	font-size: 20px;
+	background-color: darkgreen;
+	border: none;
+	border-radius: 4%;
+
+	padding: 8px 8px;
+	font-family: sans-serif;
+	-webkit-transition-duration:0.4s;
+	transition-duration: 0.3s;
+	
+}
+#dugme{
+	text-decoration: none;
+	color: white;
+}
+#dugme:hover{
+	background-color: brown;
+	color: black;
+}
+.futer img{
+	height: 50px;
+	width: 50px;
+}
+.pozadinaNovosti h1{
+position: absolute;
+top: 15%;
+left: 5%;
+font-size: 40px;
+color: darkorange;
+font-family: sans-serif;
+
+
+}
+.pozadinaNovosti p{
+	position: absolute;
+	top: 25%;
+	left: 2%;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+	font-family: sans-serif;
+
+}
+.pozadinaKontakt{
+	background-image: url("Slika/Ted.jpg");
+	width: 1420px;
+	height: 1000px;
+	background-size: 100% 100%;
+	overflow: auto;
+}
+.sadrzaj{
+	background: silver;
+	height: 590px;
+	width: 1000px;
+	border-radius: 10px;
+	opacity: 0.9;
+	position: absolute;
+	top: 23%;
+	left: 15%;
+}
+.Kontakt{
+	padding: 2%;
+	position: absolute;
+	top: 0%;
+	left: 2%;
+}
+.Kontakt th{
+ text-align: center;
+ font-size: 26px;
+ padding: 2%;
+}
+.Kontakt td{
+	text-align: left;
+	font-size: 20px;
+	padding: 2%;
+	font-family: sans-serif;
+
+}
+.sadrzaj input[type=submit]{
+	position: absolute;
+	top: 75%;
+	left: 12%;
+	font-size: 17px;
+	width: 80%;
+	height: 5%;
+	background-color: lightblue;
+	border-radius: 4px;
+	border:none;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-weight: bold;
+
+}
+.sadrzaj input[type=submit]:hover{
+	background-color: blue;
+}
+.sadrzaj input[type=textarea]{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+
+}
+.sadrzaj textarea{
+	padding: 12px 3px;
+	box-sizing: border-box;
+	border:2px solid #ccc;
+	border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
